@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --mafo-bg: #07140B;
+    --mafo-surface: #132517;
+    --mafo-surface-hover: #19311E;
+    --mafo-surface-elevated: #1B3522;
+    --mafo-border: #23402A;
+    --mafo-border-light: #2D5035;
+    --mafo-text: #F3F6F3;
+    --mafo-text-muted: #A1B8A5;
+    --mafo-orange: #FF6600;
+    --mafo-orange-hover: #FF7A1A;
+    --mafo-orange-light: #FFF2E8;
+  }
+
+  [data-theme="light"], .light {
+    --mafo-bg: #F5F7F4;
+    --mafo-surface: #FFFFFF;
+    --mafo-surface-hover: #F0F4EF;
+    --mafo-surface-elevated: #E7EFE6;
+    --mafo-border: #D2DFD4;
+    --mafo-border-light: #CBD8CE;
+    --mafo-text: #0D2214;
+    --mafo-text-muted: #3F5E46;
+    --mafo-orange: #EA580C;
+    --mafo-orange-hover: #C2410C;
+    --mafo-orange-light: #FFF3EB;
+  }
+}
+
+/* Custom scrollbar matching MAFO theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #23402A;
+  border-radius: 9999px;
+}
+.light ::-webkit-scrollbar-thumb {
+  background: #CBD8CE;
+  border-radius: 9999px;
+}

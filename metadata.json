@@ -1,0 +1,6 @@
+{
+  "name": "MAFO",
+  "description": "MAFO — Trusted Services Marketplace. Connecting you with verified service specialists in Akure and across Nigeria. Má fo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
